@@ -2,4 +2,6 @@
 target/
 dbt_packages/
 logs/
-dbt_internal_packages/
+dev.duckdb
+dev.duckdb.wal
+seeds/mart_export.csv
