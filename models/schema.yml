@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_supply_chain
+    columns:
+      - name: sku
+        tests:
+          - unique
+          - not_null
+      - name: product_type
+        tests:
+          - not_null
+
+  - name: mart_supply_chain_summary
+    columns:
+      - name: product_type
+        tests:
+          - not_null
