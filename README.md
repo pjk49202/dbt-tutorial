@@ -1,4 +1,6 @@
-Welcome to your new dbt project!
+Welcome to your my dbt project!
+
+I'm using this repo to save my work while learning dbt. I've started with a jaffle project that contains supply chain models instead of the out of the box data from the dbt documention online. I'm utilizing ODBC data connector to visualize the models in Power BI. 
 
 ### Using the starter project
 
